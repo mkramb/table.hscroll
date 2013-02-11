@@ -66,7 +66,7 @@
       $('tr', $(this)).each(function(i) {
         var element = stack[i].shift(),
           last = $([
-			'td:not(', settings.ignore, '):last,',
+            'td:not(', settings.ignore, '):last,',
             'th:not(', settings.ignore, '):last'
           ].join(''), $(this));
 
