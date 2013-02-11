@@ -15,7 +15,13 @@ In your web page:
 <script src="dist/table.hscroll.min.js"></script>
 <script>
 jQuery(function($) {
-  $('table:first').hscroll();
+  var table = $('table:first');
+  table.hscroll();
+
+  if (table.hscroll('canMove')) {
+    table.hscroll('moveLeft');
+    table.hscroll('moveRight');
+  }
 });
 </script>
 ```
