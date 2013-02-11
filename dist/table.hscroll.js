@@ -13,10 +13,7 @@
 
     var methods = {
 		initialize: function(options) {
-			settings = $.extend(
-                settings,
-                options
-            );
+			settings = $.extend(settings, options);
 
 			$('tr', $(this)).each(function() {
 				rows.push($([
