@@ -95,7 +95,7 @@
     else {
       $.error([
         'Method ', method,
-        ' does not exist on jQuery.tooltip'
+		' does not exist on jQuery prototype'
       ].join(''));
     }
   };
