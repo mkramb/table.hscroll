@@ -99,7 +99,7 @@
     else {
       $.error([
         'Method ', method,
-		' does not exist on jQuery prototype'
+        ' does not exist on jQuery prototype'
       ].join(''));
     }
   };
