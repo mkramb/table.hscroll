@@ -1,0 +1,29 @@
+{
+  "name": "table.hscroll",
+  "title": "Table Hscroll",
+  "description": "Scroll table horizontally.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mitja/table.hscroll",
+  "author": {
+    "name": "Mitja Kramberger",
+    "email": "mitja@vizius.si",
+    "url": "http://www.vizius.si"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mitja/table.hscroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitja/table.hscroll/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mitja/table.hscroll/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
