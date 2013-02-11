@@ -16,7 +16,7 @@ In your web page:
 <script>
 jQuery(function($) {
   var table = $('table:first');
-  table.hscroll();
+  table.hscroll({ max: 4 });
 
   if (table.hscroll('canMove')) {
     table.hscroll('moveLeft');
